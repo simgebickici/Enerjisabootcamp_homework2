@@ -1,0 +1,233 @@
+policy_state: ohe
+IL    279
+OH    274
+IN    247
+Name: policy_state, dtype: int64
+
+policy_csl: ordinal
+MISSING     693
+100/300      39
+250/500      36
+500/1000     32
+Name: policy_csl, dtype: int64
+
+umbrella_limit: ohe
+0.0      508
+9999     163
+other    129
+Name: umbrella_limit, dtype: int64
+
+insured_sex: le
+FEMALE    428
+MALE      372
+Name: insured_sex, dtype: int64
+
+insured_education_level: ordinal
+JD             135
+High School    132
+MD             119
+Associate      115
+Masters        109
+PhD            102
+College         88
+Name: insured_education_level, dtype: int64
+
+insured_occupation: ohe
+machine-op-inspct    72
+prof-specialty       70
+tech-support         67
+exec-managerial      65
+sales                65
+craft-repair         62
+priv-house-serv      59
+transport-moving     56
+armed-forces         54
+other-service        53
+protective-serv      49
+adm-clerical         45
+farming-fishing      44
+handlers-cleaners    39
+Name: insured_occupation, dtype: int64
+
+insured_hobbies: ohe
+other        735
+chess         36
+cross-fit     29
+Name: insured_hobbies, dtype: int64
+
+insured_relationship: ohe
+own-child         147
+not-in-family     144
+other-relative    139
+husband           125
+wife              124
+unmarried         121
+Name: insured_relationship, dtype: int64
+
+incident_type: ohe
+Multi-vehicle Collision     333
+Single Vehicle Collision    330
+Vehicle Theft                75
+Parked Car                   62
+Name: incident_type, dtype: int64
+
+collision_type: ohe
+Rear Collision     243
+Side Collision     214
+Front Collision    206
+?                  137
+Name: collision_type, dtype: int64
+
+incident_severity: ordinal
+Minor Damage      283
+Major Damage      224
+Total Loss        222
+Trivial Damage     71
+Name: incident_severity, dtype: int64
+
+authorities_contacted: ohe
+Police       234
+Fire         179
+Ambulance    165
+Other        154
+None          68
+Name: authorities_contacted, dtype: int64
+
+incident_state: ohe
+NY    208
+SC    205
+WV    174
+NC     85
+VA     85
+OH     22
+PA     21
+Name: incident_state, dtype: int64
+
+incident_city: ohe
+Springfield    132
+Columbus       120
+Northbend      116
+Hillsdale      114
+Arlington      114
+Riverwood      106
+Northbrook      98
+Name: incident_city, dtype: int64
+
+property_damage: ???
+?      286
+NO     269
+YES    245
+Name: property_damage, dtype: int64
+
+police_report_available: ???
+NO         210
+?          206
+MISSING    206
+YES        178
+Name: police_report_available, dtype: int64
+
+auto_make: ohe
+Suburu        69
+Dodge         67
+Nissan        66
+Chevrolet     63
+Saab          63
+Accura        57
+Volkswagen    57
+Ford          56
+Audi          55
+Jeep          53
+BMW           53
+Toyota        50
+Mercedes      47
+Honda         44
+Name: auto_make, dtype: int64
+
+auto_model:
+RAM               37
+Wrangler          34
+MDX               32
+Neon              30
+Passat            29
+A3                29
+Jetta             28
+A5                26
+Forrestor         26
+92x               24
+Legacy            24
+Ultima            23
+Pathfinder        23
+Malibu            23
+Camry             22
+Escape            21
+E400              21
+95                21
+Maxima            20
+Tahoe             20
+Silverado         20
+Impreza           19
+Grand Cherokee    19
+Fusion            19
+CRV               18
+93                18
+Civic             17
+Highlander        16
+F150              16
+TL                15
+X6                14
+X5                14
+ML350             13
+M5                13
+C300              13
+Corolla           12
+3 Series          12
+RSX               10
+Accord             9
+Name: auto_model, dtype: int64
+
+location_check:le
+False    791
+True       9
+Name: location_check, dtype: int64
+
+age_group:
+31-35    140
+36-40    132
+41-45    130
+9999     111
+26-30    110
+46-50     69
+51-55     35
+56-60     34
+21-25     26
+61-65     11
+15-20      2
+Name: age_group, dtype: int64
+
+months_as_customer_groups:ordinal
+251-300    141
+101-150    121
+201-250    116
+151-200    106
+51-100      79
+0-50        72
+301-350     58
+451-500     37
+401-450     36
+351-400     34
+Name: months_as_customer_groups, dtype: int64
+
+policy_annual_premium_groups:ordinal
+medium       547
+high         129
+low          121
+very low       2
+very high      1
+Name: policy_annual_premium_groups, dtype: int64
+
+policy_deductable_group:
+501-1000     279
+0-500        270
+1501-2000    251
+Name: policy_deductable_group, dtype: int64
+
